@@ -1,0 +1,33 @@
+
+.separador{
+  max-height: 20vh;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg{
+  font-size: 3rem;
+  margin-top: 1vh;
+  font-weight: bold;
+  background: linear-gradient(to right, #009acf, rgb(17, 82, 167));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  max-width: 40vh;
+  text-transform: uppercase;
+  line-height: .77;
+}
+
+.backazul {
+  background-image: linear-gradient(to right, #009acf, #009acf), url('/assets/gaminghome.jpg');
+  background-size: cover;
+  background-position: right;
+}
+
+section {
+  margin-bottom: 3em;
+}
