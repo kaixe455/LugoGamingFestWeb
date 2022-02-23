@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Noticia } from 'src/app/model/noticia';
+import { NoticiasService } from 'src/app/services/noticias.service';
 
 @Component({
   selector: 'app-noticias-home',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoticiasHomeComponent implements OnInit {
 
-  constructor() { }
+  noticias : Noticia[] = []
+
+  constructor(private noticiasService: NoticiasService, private router : Router) { }
 
   ngOnInit(): void {
+
+    this.noticias = this.noticiasService.getNoticias()
+
   }
 
 }

@@ -1,27 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 .gr-1 {
-  background: linear-gradient(170deg, #01E4F8 0%, #1D3EDE 100%);
-}
-
-.gr-2 {
-  background: linear-gradient(170deg, #B4EC51 0%, #429321 100%);
-}
-
-.gr-3 {
-  background: linear-gradient(170deg, #C86DD7 0%, #3023AE 100%);
+  background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
 }
 
 * {
   transition: 0.5s;
-}
-
-.h-50 {
-  height: 50vh !important;
-}
-
-.align-middle {
-  position: relative;
 }
 
 .column {
@@ -53,7 +35,6 @@
   border-radius: 0;
   color: black;
   letter-spacing: 0.05rem;
-  font-family: "Oswald", sans-serif;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
 }
 .card .txt {
@@ -61,17 +42,16 @@
   z-index: 1;
 }
 .card .txt h1 {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .card .txt p {
-  font-size: 0.7rem;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0rem;
+  font-size: 1rem;
   margin-top: 33px;
-  opacity: 0;
-  color: white;
+  text-align: center;
+  z-index: 100;
+  color: rgb(0, 0, 0);
 }
 .card a {
   z-index: 3;
@@ -104,8 +84,7 @@
 }
 .card fa-icon {
   position: relative;
-  right: -50%;
-  top: 60%;
+  right: -40%;
   font-size: 12rem;
   line-height: 0;
   opacity: 0.2;

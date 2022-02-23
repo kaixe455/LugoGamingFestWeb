@@ -11,10 +11,17 @@ import { HomeComponent } from './secciones/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ZonasHomeComponent } from './componentes/zonas-home/zonas-home.component';
 import { SeparadorHomeComponent } from './componentes/separador-home/separador-home.component';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faTwitch, faInstagram, faDiscord, faFacebook  } from '@fortawesome/free-brands-svg-icons';
+import { TarjetaZonaComponent } from './componentes/zonas-home/tarjeta-zona/tarjeta-zona/tarjeta-zona.component';
+import { VerNoticiaComponent } from './secciones/ver-noticia/ver-noticia.component';
+import { PasesComponent } from './secciones/pases/pases.component';
+import { PaseComponent } from './componentes/pase/pase.component';
+import { TorneosComponent } from './secciones/torneos/torneos.component';
+import { InvitadoComponent } from './componentes/invitado/invitado.component';
+import { InvitadosComponent } from './secciones/invitados/invitados.component';
+import { NoticiaCardComponent } from './componentes/noticia-card/noticia-card.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +33,15 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
     HomeComponent,
     FooterComponent,
     ZonasHomeComponent,
-    SeparadorHomeComponent
+    SeparadorHomeComponent,
+    TarjetaZonaComponent,
+    VerNoticiaComponent,
+    PasesComponent,
+    PaseComponent,
+    TorneosComponent,
+    InvitadoComponent,
+    InvitadosComponent,
+    NoticiaCardComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +54,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 export class AppModule {
 
   constructor(library : FaIconLibrary) {
-    library.addIconPacks(fas,fab)
+    library.addIcons(faDiscord,faInstagram,faTwitch,faTwitter, faFacebook)
+    library.addIconPacks(fas)
   }
 
  }

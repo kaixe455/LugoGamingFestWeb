@@ -1,0 +1,150 @@
+.noticia-home-grande {
+  height: 30vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 20vh;
+}
+
+@keyframes zoomInOut {
+  0% {
+      transform: scale(1,1);
+  }
+  50% {
+      transform: scale(1.15,1);
+  }
+  100% {
+      transform: scale(1.2,1);
+  }
+}
+
+.border-lgf:hover img {
+  animation: zoomInOut 5s ;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+  background: linear-gradient(to bottom, #2F80ED, #009acf);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 0.5rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #666;
+}
+
+button {
+  --color: #009acf;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2em;
+  line-height: 1.9em;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+
+ button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+
+ button:hover {
+  color: #fff;
+ }
+
+ button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+
+ button:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+
+ button:active:before {
+  background: #009acf;
+  transition: background 0s;
+ }
+
+ .border-lgf {
+  border: solid 3px #009acf;
+  box-shadow: 0 0 20px #009acf;
+ }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { Zona } from 'src/app/model/zona';
+import { ZonasService } from 'src/app/services/zonas.service';
 
 @Component({
   selector: 'app-zonas-home-componente',
@@ -8,11 +9,12 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class ZonasHomeComponent implements OnInit {
 
-  faCoffeeIcon = faCoffee
+  zonas : Zona[] = []
 
-  constructor() { }
+  constructor(private zonasService: ZonasService) { }
 
   ngOnInit(): void {
+    this.zonas = this.zonasService.getZonas();
   }
 
 }

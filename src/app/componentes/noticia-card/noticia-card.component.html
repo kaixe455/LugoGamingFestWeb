@@ -1,0 +1,14 @@
+<div class="card col-md-4 border-lgf">
+  <div class="card__header">
+    <img src="{{noticia.url_imagen}}" alt="card__image" class="card__image" width="600">
+  </div>
+  <div class="card__body">
+    <h4 class="lgf-font">{{noticia.titulo}}</h4>
+    <p class="lgf-font">{{noticia.subtitulo}}</p>
+  </div>
+  <div class="card__footer">
+    <div class="user pull-right">
+      <button class="lgf-font" (click) = "visualizarNoticia(noticia.id)"> Leer más </button>
+    </div>
+  </div>
+</div>
