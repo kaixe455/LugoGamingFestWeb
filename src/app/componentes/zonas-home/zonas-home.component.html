@@ -1,7 +1,13 @@
 <div class="container h-50">
   <div class="row align-middle">
     <div class="col-md-6 col-lg-4 column" *ngFor="let zona of zonas">
-      <tarjeta-zona nombre="{{zona.nombre}}" icono="{{zona.icono}}" descripcion="{{zona.descripcion}}"></tarjeta-zona>
+      <tarjeta-zona
+      id="{{zona.id}}"
+      nombre="{{zona.nombre}}"
+      proximamente="{{zona.proximamente}}"
+      icono="{{zona.icono}}"
+      descripcion="{{zona.descripcion}}">
+    </tarjeta-zona>
     </div>
   </div>
 </div>

@@ -1,5 +1,9 @@
 <div class="container">
   <div class="row">
-    <app-invitado nombre="WISMICHU" ocupacion="Influencer"></app-invitado>
+    <div class="col-md-3" *ngFor="let invitado of invitados">
+      <app-invitado nombre="{{invitado.nombre}}"
+      ocupacion="{{invitado.ocupacion}}" foto="{{invitado.imagen}}" twitter="{{invitado.twitter}}"
+      instagram = "{{invitado.instagram}}" spotify="{{invitado.spotify}}"></app-invitado>
+    </div>
   </div>
 </div>

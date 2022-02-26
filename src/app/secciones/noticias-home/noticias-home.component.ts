@@ -11,6 +11,7 @@ import { NoticiasService } from 'src/app/services/noticias.service';
 export class NoticiasHomeComponent implements OnInit {
 
   noticias : Noticia[] = []
+  noticia : Noticia = new Noticia()
 
   constructor(private noticiasService: NoticiasService, private router : Router) { }
 

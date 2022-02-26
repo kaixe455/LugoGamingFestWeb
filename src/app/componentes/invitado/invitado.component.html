@@ -1,10 +1,11 @@
-<div class="col-md-3 ">
-  <div class="card profile-card-1">
-      <img src="./assets/fondo-hero.jpg" alt="profile-sample1" class="background"/>
-      <img src="https://randomuser.me/api/portraits/women/20.jpg" alt="profile-image" class="profile"/>
+<div class="card profile-card-1">
+      <img [src]="foto" alt="profile-image" class="profile"/>
           <div class="card-content">
-          <h2 class="lgf-font">{{nombre}}<small>{{ocupacion}}</small></h2>
-          <div class="icon-block"><a href="#"><fa-icon [icon]="['fab','instagram']"></fa-icon></a><a href="#"> <fa-icon [icon]="['fab','twitter']"></fa-icon></a><a href="#"> <fa-icon [icon]="['fab','facebook']"></fa-icon></a></div>
+            <h2 class="lgf-font">{{nombre}}<small>{{ocupacion}}</small></h2>
+            <div class="nav-item my-5 text-center">
+              <a href="https://twitter.com/{{twitter}}" *ngIf="twitter" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fab','twitter']"></fa-icon></a>
+              <a href="https://instagram.com/{{instagram}}" *ngIf="instagram" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fab','instagram']"></fa-icon></a>
+              <a href="https://open.spotify.com/artist/{{spotify}}" *ngIf="spotify" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fab','spotify']"></fa-icon></a>
+            </div>
           </div>
       </div>
-</div>

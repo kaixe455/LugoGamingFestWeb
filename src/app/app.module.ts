@@ -13,7 +13,7 @@ import { ZonasHomeComponent } from './componentes/zonas-home/zonas-home.componen
 import { SeparadorHomeComponent } from './componentes/separador-home/separador-home.component';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faTwitch, faInstagram, faDiscord, faFacebook  } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faTwitch, faInstagram, faDiscord, faFacebook, faSpotify  } from '@fortawesome/free-brands-svg-icons';
 import { TarjetaZonaComponent } from './componentes/zonas-home/tarjeta-zona/tarjeta-zona/tarjeta-zona.component';
 import { VerNoticiaComponent } from './secciones/ver-noticia/ver-noticia.component';
 import { PasesComponent } from './secciones/pases/pases.component';
@@ -21,7 +21,13 @@ import { PaseComponent } from './componentes/pase/pase.component';
 import { TorneosComponent } from './secciones/torneos/torneos.component';
 import { InvitadoComponent } from './componentes/invitado/invitado.component';
 import { InvitadosComponent } from './secciones/invitados/invitados.component';
-import { NoticiaCardComponent } from './componentes/noticia-card/noticia-card.component'
+import { NoticiaCardComponent } from './componentes/noticia-card/noticia-card.component';
+import { CalendarioComponent } from './secciones/calendario/calendario.component';
+import { ConciertosComponent } from './secciones/conciertos/conciertos.component';
+import { PonenciasComponent } from './secciones/ponencias/ponencias.component';
+import { TurismoComponent } from './secciones/turismo/turismo.component';
+import { VerZonaComponent } from './secciones/ver-zona/ver-zona.component';
+import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component'
 
 @NgModule({
   declarations: [
@@ -41,7 +47,13 @@ import { NoticiaCardComponent } from './componentes/noticia-card/noticia-card.co
     TorneosComponent,
     InvitadoComponent,
     InvitadosComponent,
-    NoticiaCardComponent
+    NoticiaCardComponent,
+    CalendarioComponent,
+    ConciertosComponent,
+    PonenciasComponent,
+    TurismoComponent,
+    VerZonaComponent,
+    HeaderSeccionComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +66,7 @@ import { NoticiaCardComponent } from './componentes/noticia-card/noticia-card.co
 export class AppModule {
 
   constructor(library : FaIconLibrary) {
-    library.addIcons(faDiscord,faInstagram,faTwitch,faTwitter, faFacebook)
+    library.addIcons(faDiscord,faInstagram,faTwitch,faTwitter, faFacebook, faSpotify)
     library.addIconPacks(fas)
   }
 

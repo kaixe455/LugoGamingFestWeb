@@ -1,3 +1,18 @@
 img {
-  max-height: 20vh;
+  max-height: 30vh;
+}
+
+.accordion-button {
+  padding: 0 !important;
+}
+
+.minitorneo:hover {
+  transition-duration: 1.2s;
+  background-color: #3498db;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.titulo-torneo {
+  font-size: 2rem;
 }

@@ -11,3 +11,11 @@
 .texto-redes {
   font-size: 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.colaborador {
+  max-height: 7vh;
+}

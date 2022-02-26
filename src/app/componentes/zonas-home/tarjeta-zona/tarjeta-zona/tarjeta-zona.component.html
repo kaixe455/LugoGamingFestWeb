@@ -1,9 +1,12 @@
-<div class="card gr-1">
+<div *ngIf="proximamente" (click)="informacionProximamente()" class="card gr-1">
     <div class="txt">
       <h1 class="lgf-font">ZONA {{nombre}}</h1>
-      <p class="lgf-font">{{descripcion}}</p>
     </div>
   <div class="ico-card">
-    <fa-icon *ngIf="icono == 'gamepad'" [icon]="['fas','gamepad']"></fa-icon>
+    <fa-icon *ngIf="icono == 'masks-theater'" [icon]="['fas','masks-theater']"></fa-icon>
+    <fa-icon *ngIf="icono == 'users'" [icon]="['fas','users']"></fa-icon>
+    <fa-icon *ngIf="icono == 'code'" [icon]="['fas','code']"></fa-icon>
+    <fa-icon *ngIf="icono == 'vr'" [icon]="['fas','vr-cardboard']"></fa-icon>
+    <fa-icon *ngIf="icono == 'desktop'" [icon]="['fas','desktop']"></fa-icon>
   </div>
-  </div>
+</div>

@@ -5,6 +5,7 @@ export class Noticia {
     url_imagen: string;
     contenido: string;
     categoria: string;
+    fx_publicacion_fx: string;
 
     constructor () {
       this.id = 0
@@ -13,5 +14,6 @@ export class Noticia {
       this.url_imagen = ''
       this.contenido = ''
       this.categoria = ''
+      this.fx_publicacion_fx = ''
     }
   }

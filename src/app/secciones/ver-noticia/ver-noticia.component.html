@@ -1,1 +1,31 @@
-<p>ver-noticia works!</p>
+
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <img [src]="noticia.url_imagen" alt="{{noticia.titulo}}" class="imagen-noticia">
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-12">
+      <span class="texto-autor lgf-font"> <fa-icon class="mx-1" [icon]="['fas','user']"></fa-icon>  Lugo Gaming Fest</span>
+      <span class="texto-autor mx-3 lgf-font"><fa-icon class="mx-1" [icon]="['fas','calendar']"></fa-icon>  {{noticia.fx_publicacion_fx}}</span>
+    </div>
+  </div>
+  <hr class="d-inline-block mx-3 separator-oxygen mb-0" />
+  <div class="row mt-3">
+    <div class="col-md-12">
+      <h1 class="titulo lgf-font">{{noticia.titulo}}</h1>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-12">
+      <h2 class="subtitulo">{{noticia.subtitulo}} </h2>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-12">
+      <p [innerHTML]="noticia.contenido" class="contenido">
+      </p>
+    </div>
+  </div>
+</div>

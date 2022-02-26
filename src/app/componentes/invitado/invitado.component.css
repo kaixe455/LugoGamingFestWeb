@@ -6,21 +6,20 @@
 section{
     float:left;
     width:100%;
-    background: #fff;  /* fallback for old browsers */
     padding:30px 0;
 }
-h1{float:left; width:100%; color:#00b4f2; margin-bottom:30px; font-size: 14px;}
+h1{float:left; width:100%; color:#fff; margin-bottom:30px; font-size: 14px;}
 h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
 h1 a{color:#131313; font-weight:bold;}
 
 /*Profile Card 1*/
 .profile-card-1 {
-  font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
   width: 100%;
-  color: #00b4f2;
+  color: #fff;
+  background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
   text-align: center;
   height:368px;
   border:none;
@@ -42,11 +41,9 @@ h1 a{color:#131313; font-weight:bold;}
   top: 50%;
 }
 .profile-card-1 .profile {
-  border-radius: 50%;
   position: absolute;
   bottom: 50%;
   left: 50%;
-  max-width: 100px;
   opacity: 1;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(255, 255, 255, 1);
@@ -72,7 +69,6 @@ h1 a{color:#131313; font-weight:bold;}
     width: 30px;
     height: 30px;
     line-height: 30px;
-    border-radius: 50%;
     margin:0 5px;
 }
 .profile-card-1 .icon-block{
@@ -87,4 +83,8 @@ h1 a{color:#131313; font-weight:bold;}
   background-color:#fff;
   color:#2E3434;
   text-decoration:none;
+}
+
+img {
+  max-width: 80%;
 }

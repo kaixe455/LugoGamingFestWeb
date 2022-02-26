@@ -76,3 +76,7 @@ body {
 .sombreado {
   color:white;
 }
+
+li {
+  cursor: pointer;
+}
