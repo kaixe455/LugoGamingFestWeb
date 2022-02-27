@@ -14,8 +14,9 @@ export class TurismoComponent implements OnInit {
   constructor(private guiaService : GuiasService) { }
 
   ngOnInit(): void {
-
+    window.scroll(0,0);
     this.guias = this.guiaService.getGuias()
+
   }
 
 }

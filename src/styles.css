@@ -12,6 +12,10 @@ body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-animated {
   background: linear-gradient(-45deg, #00b4f2, #009acf, #23a6d5, rgba(238, 238, 238, 0.315));
 	background-size: 400% 400%;

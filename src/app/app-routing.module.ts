@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ActividadesComponent } from './secciones/actividades/actividades.component';
 import { CalendarioComponent } from './secciones/calendario/calendario.component';
 import { ConciertosComponent } from './secciones/conciertos/conciertos.component';
 import { HomeComponent } from './secciones/home/home.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'ponencias', component: PonenciasComponent },
   { path: 'guia-turistica', component: TurismoComponent },
   { path: 'zona/:id', component: VerZonaComponent },
+  { path: 'actividades', component: ActividadesComponent },
 ];
 
 @NgModule({

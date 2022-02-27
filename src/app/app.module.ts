@@ -28,6 +28,7 @@ import { PonenciasComponent } from './secciones/ponencias/ponencias.component';
 import { TurismoComponent } from './secciones/turismo/turismo.component';
 import { VerZonaComponent } from './secciones/ver-zona/ver-zona.component';
 import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component';
+import { ActividadesComponent } from './secciones/actividades/actividades.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { HeaderSeccionComponent } from './componentes/header-seccion/header-secc
     PonenciasComponent,
     TurismoComponent,
     VerZonaComponent,
-    HeaderSeccionComponent
+    HeaderSeccionComponent,
+    ActividadesComponent
   ],
   imports: [
     BrowserModule,

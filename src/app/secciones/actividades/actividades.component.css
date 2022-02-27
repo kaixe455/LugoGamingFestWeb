@@ -1,5 +1,5 @@
 img {
-  max-height: 35vh
+  max-height: 15vh
 }
 
 .info-conciertos {
@@ -7,7 +7,7 @@ img {
   font-size: 1.5rem;
   padding: 1rem;
   color: white;
-  max-height: 35vh
+  max-height: 15vh
 }
 
 li a {
