@@ -38,12 +38,17 @@ export class ZonasService {
       },
       { "id":5,
         "nombre":"COSPLAY",
-        "descripcion":"Hola",
+        "descripcion":"<h3>Dispondremos de una Zona Cosplay donde podréis disfrutar el arte de nuestros invitados al evento. Cada uno de ellos tendrá un espacio donde podréis adquirir sus trabajos.</h3><p>¡Además no dejes de pasar la oportunidad de inmortalizar el momento en nuestro Photocall!</p>",
         "icono":"masks-theater",
         "proximamente":false
       },
 
     ]
+  }
+
+  getZonaById(id : number) : Zona {
+    console.log(this.getZonas()[id-1])
+    return this.getZonas()[id-1]
   }
 
 }

@@ -54,7 +54,7 @@
 .btn-1 {
 	background: #3498db;
 	color: #fff;
-  width: 70%;
+  width: 80%;
   -webkit-transition: all 0.7s;
 	-moz-transition: all 0.7s;
 	transition: all 0.7s;
@@ -62,7 +62,7 @@
 
 .btn-1:hover {
 	background: #2980b9;
-  width: 100%;
+  width: 90%;
   -webkit-transition: all 0.7s;
 	-moz-transition: all 0.7s;
 	transition: all 0.7s;

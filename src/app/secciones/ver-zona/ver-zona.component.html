@@ -1,1 +1,29 @@
-<p>ver-zona works!</p>
+<header-seccion titulo="ZONA {{zona.nombre}}"></header-seccion>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 lgf-font my-5" [innerHTML]="zona.descripcion">
+    </div>
+  </div>
+  <div class="row" *ngIf="zona.nombre == 'COSPLAY'">
+      <div class="col-md-3 col-xs-12">
+        <app-invitado nombre="SelediaCosplay"
+        ocupacion="Embajadora" foto="./assets/fotos_invitados/Seledia.jpg" twitter="SelediaCosplay"
+        instagram = "SelediaCosplay" spotify=""></app-invitado>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <app-invitado nombre="Yumivigo"
+        ocupacion="Jurado" foto="./assets/fotos_invitados/Yumivigo.jpg" twitter="Yumivigo"
+        instagram = "Yumivigo" spotify=""></app-invitado>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <app-invitado nombre="Juggernaut"
+        ocupacion="Jurado" foto="./assets/fotos_invitados/Juggernaut.jpg" twitter="Juggernaut"
+        instagram = "Juggernaut" spotify=""></app-invitado>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <app-invitado nombre="ClariceCosplay"
+        ocupacion="Jurado" foto="./assets/fotos_invitados/ClariceCosplay.jpg" twitter="ClariceCosplay"
+        instagram = "ClariceCosplay" spotify=""></app-invitado>
+      </div>
+  </div>
+</div>

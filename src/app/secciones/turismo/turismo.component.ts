@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticia } from 'src/app/model/noticia';
+import { GuiasService } from 'src/app/services/guias.service';
 
 @Component({
   selector: 'app-turismo',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TurismoComponent implements OnInit {
 
-  constructor() { }
+  guias : Noticia[] = []
+
+  constructor(private guiaService : GuiasService) { }
 
   ngOnInit(): void {
+
+    this.guias = this.guiaService.getGuias()
   }
 
 }

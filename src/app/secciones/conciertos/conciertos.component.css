@@ -1,0 +1,23 @@
+img {
+  max-height: 35vh
+}
+
+.info-conciertos {
+  background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+li a {
+  cursor: pointer;
+  color: white !important;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+p {
+  font-size: 1rem;
+}

@@ -1,1 +1,12 @@
 <header-seccion titulo="GUÍA TURÍSTICA"></header-seccion>
+<section class="animate__animated animate__fadeIn">
+  <div class="container">
+    <div class="row center-block">
+      <div class="col-md-12 contenedor">
+        <!-- elemento noticia -->
+        <app-noticia-card *ngFor="let guia of guias" [noticia]=guia></app-noticia-card>
+        <!-- fin elemento noticia-->
+      </div>
+    </div>
+  </div>
+</section>

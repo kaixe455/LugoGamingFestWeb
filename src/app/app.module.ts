@@ -27,7 +27,7 @@ import { ConciertosComponent } from './secciones/conciertos/conciertos.component
 import { PonenciasComponent } from './secciones/ponencias/ponencias.component';
 import { TurismoComponent } from './secciones/turismo/turismo.component';
 import { VerZonaComponent } from './secciones/ver-zona/ver-zona.component';
-import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component'
+import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component';
 
 @NgModule({
   declarations: [
