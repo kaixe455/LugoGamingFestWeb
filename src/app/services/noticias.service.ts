@@ -17,7 +17,7 @@ export class NoticiasService {
         "subtitulo":"¡Nos complace anunciar que en el evento tendrá lugar una nueva edición de Amazonas Valorant Tournament!",
         "url_imagen":"./assets/imagenes_noticias/Amazonas_Tournament_2.jpg",
       "categoria":"hola",
-      "contenido":"¡Nos complace anunciar que en el evento tendrá lugar una nueva edición de Amazonas Valorant Tournament!",
+      "contenido":"<p>Amazonas Valorant Tournament, vuelve con final presencial en Lugo. Para los que no conozcáis el evento, se trata de un showmatch benéfico mixto entre creadores/as de contenido de la comunidad de Valorant.</p><p>La primera edición tuvo lugar el año pasado de manera online, donde se recaudó más de 500€ que se repartieron entre la AECC y la Asociación Alma. Con este evento se quería destacar el papel fundamental que tiene la mujer en este sector. Contamos con 8 capitanas que formaron sus equipos en un draft entre más de 30 jugadores/as.</p><p>En esta ocasión tendremos una fase online y los dos mejores equipos lucharan en Lugo por ganar esta segunda edición. De nuevo, todo lo recaudado durante el evento irá destinado a varias asociaciones que conoceremos las próximas semanas. Pronto conoceremos las capitanas y todos los participantes.</p><p><strong>¡Estad atentos a nuestras redes sociales para no perderos ningún detalle!</strong></p>",
       "fx_publicacion_fx": "26/02/2022"
       },
       {"id":2,
@@ -40,7 +40,6 @@ export class NoticiasService {
   }
 
   getNoticiaById(id : number) : Noticia {
-    console.log(this.getNoticias()[id-1])
     return this.getNoticias()[id-1]
   }
 }

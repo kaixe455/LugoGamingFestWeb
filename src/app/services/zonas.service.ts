@@ -47,7 +47,6 @@ export class ZonasService {
   }
 
   getZonaById(id : number) : Zona {
-    console.log(this.getZonas()[id-1])
     return this.getZonas()[id-1]
   }
 

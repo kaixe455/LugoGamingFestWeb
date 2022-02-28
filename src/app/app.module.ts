@@ -13,7 +13,7 @@ import { ZonasHomeComponent } from './componentes/zonas-home/zonas-home.componen
 import { SeparadorHomeComponent } from './componentes/separador-home/separador-home.component';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faTwitch, faInstagram, faDiscord, faFacebook, faSpotify  } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faTwitch, faInstagram, faDiscord, faFacebook, faSpotify, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { TarjetaZonaComponent } from './componentes/zonas-home/tarjeta-zona/tarjeta-zona/tarjeta-zona.component';
 import { VerNoticiaComponent } from './secciones/ver-noticia/ver-noticia.component';
 import { PasesComponent } from './secciones/pases/pases.component';
@@ -68,7 +68,7 @@ import { ActividadesComponent } from './secciones/actividades/actividades.compon
 export class AppModule {
 
   constructor(library : FaIconLibrary) {
-    library.addIcons(faDiscord,faInstagram,faTwitch,faTwitter, faFacebook, faSpotify)
+    library.addIcons(faDiscord,faInstagram,faTwitch,faTwitter, faFacebook, faSpotify, faLinkedin)
     library.addIconPacks(fas)
   }
 
