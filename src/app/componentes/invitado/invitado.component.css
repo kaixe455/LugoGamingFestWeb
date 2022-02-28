@@ -88,3 +88,12 @@ h1 a{color:#131313; font-weight:bold;}
 img {
   max-width: 80%;
 }
+
+@media  (max-width: 450px) {
+  .invitado {
+    padding:1rem;
+    margin-left:0.1rem;
+    margin-right:0.5rem;
+    margin-top: 1rem;
+  }
+ }

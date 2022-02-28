@@ -22,3 +22,50 @@ li a:hover {
 p {
   font-size: 1rem;
 }
+
+@media  (max-width: 450px) {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+ }
+
+@media (max-width:320px)  {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+}
+@media (max-width:481px)  {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+ }

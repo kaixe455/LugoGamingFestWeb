@@ -112,3 +112,20 @@
   color: white;
   z-index: 0;
 }
+
+@media  (max-width: 450px) {
+  .h-50 {
+    height: 140vh !important;
+  }
+ }
+
+@media (max-width:320px)  {
+  .h-50 {
+  height: 140vh !important;
+  }
+}
+@media (max-width:481px)  {
+  .h-50 {
+    height: 140vh !important;
+    }
+ }

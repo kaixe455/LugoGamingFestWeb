@@ -14,5 +14,23 @@ img {
 }
 
 .titulo-torneo {
-  font-size: 2rem;
+  font-size: 2em;
 }
+
+@media  (max-width: 450px) {
+  .titulo-torneo {
+    font-size: 1em;
+  }
+ }
+
+@media (max-width:320px)  {
+  .titulo-torneo {
+    font-size: 1em;
+  }
+}
+@media (max-width:481px)  {
+  .titulo-torneo {
+    font-size: 1em;
+  }
+ }
+
