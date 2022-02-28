@@ -118,14 +118,20 @@
     height: 140vh !important;
   }
  }
-
-@media (max-width:320px)  {
-  .h-50 {
-  height: 140vh !important;
-  }
-}
-@media (max-width:481px)  {
+@media (max-width:773px)  {
   .h-50 {
     height: 140vh !important;
+    }
+ }
+
+ @media (min-width:774px) and (max-width:991px)  {
+  .h-50 {
+    height: 100vh !important;
+    }
+ }
+
+ @media (min-width:991px) and (max-width:1630px)  {
+  .h-50 {
+    height: 60vh !important;
     }
  }
