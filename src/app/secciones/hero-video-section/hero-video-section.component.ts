@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Alerta from 'sweetalert2'
 
 @Component({
   selector: 'app-hero-video-section',
@@ -10,6 +11,11 @@ export class HeroVideoSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+
+  proximamente() {
+    Alerta.fire('PROXIMAMENTE!', 'Aun no se ha abierto la venta de entradas', 'info')
   }
 
 }
