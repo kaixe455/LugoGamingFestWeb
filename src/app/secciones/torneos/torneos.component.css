@@ -1,5 +1,6 @@
 img {
   max-height: 30vh;
+  cursor: pointer;
 }
 
 .accordion-button {

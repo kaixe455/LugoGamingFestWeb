@@ -13,12 +13,12 @@ export class NoticiasService {
 
     return [
       {"id":1,
-        "titulo":"Torneo Amazonas en Lugo!",
-        "subtitulo":"¡Nos complace anunciar que en el evento tendrá lugar una nueva edición de Amazonas Valorant Tournament!",
-        "url_imagen":"./assets/imagenes_noticias/Amazonas_Tournament_2.jpg",
-      "categoria":"hola",
-      "contenido":"<p>Amazonas Valorant Tournament, vuelve con final presencial en Lugo. Para los que no conozcáis el evento, se trata de un showmatch benéfico mixto entre creadores/as de contenido de la comunidad de Valorant.</p><p>La primera edición tuvo lugar el año pasado de manera online, donde se recaudó más de 500€ que se repartieron entre la AECC y la Asociación Alma. Con este evento se quería destacar el papel fundamental que tiene la mujer en este sector. Contamos con 8 capitanas que formaron sus equipos en un draft entre más de 30 jugadores/as.</p><p>En esta ocasión tendremos una fase online y los dos mejores equipos lucharan en Lugo por ganar esta segunda edición. De nuevo, todo lo recaudado durante el evento irá destinado a varias asociaciones que conoceremos las próximas semanas. Pronto conoceremos las capitanas y todos los participantes.</p><p><strong>¡Estad atentos a nuestras redes sociales para no perderos ningún detalle!</strong></p>",
-      "fx_publicacion_fx": "26/02/2022"
+        "titulo":"LUGO GAMING FEST saca a la venta sus entradas y contará con Wismichu como embajador del evento.",
+        "subtitulo":"Wismichu aterriza en la ciudad gallega como imagen de lo que será el mayor evento gaming del norte.",
+        "url_imagen":"./assets/imagenes_noticias/noticia_wismichu.jpg",
+        "categoria":"Lugo Gaming Fest",
+        "contenido":"<p><b>Lugo Gaming Fest</b> anuncia la salida de las entradas para el evento y se encuentran disponibles en su <a href='https://lugogamingfest.es/' target='_blank'>página web</a>. El festival que tendrá lugar en el Palacio de Feiras e Congresos de Lugo los días <b>23</b> y <b>24</b> de <b>abril</b>, durante el cual se podrá disfrutar de un amplio catálogo de actividades, entre las que se encuentran:</p><br><ul><li>Competiciones oficiales del Circuito Tormenta</li><li>Exhibición de Freestyle de la mano de Gallos del Norte</li><li>Exhibición de Freestyle de la mano de Gallos del Norte</li><li>Música en directo</li><li>Zona de actividades para toda la familia</li><li>Ponencias relacionadas con el mundo de los videojuegos</li></ul><br><b>WISMICHU SERÁ EL EMBAJADOR DE LUGO GAMING FEST</b><br><p>Ismael Prego, conocido en Youtube y Twitch como <b><a href='https://twitter.com/Wismichu' target='_blank'>Wismichu</a></b>, será el embajador del evento lucense. Esto le da un valor añadido al festival, ya que los visitantes podrán <b>conocer en persona</b> a uno de los mayores referentes gallegos del sector gaming.</p><p>Con esto, el festival gamer de la ciudad de Lugo crece cada día a pasos agigantados. En las próximas semanas conoceréis alguna actividad más relacionada con él, así como información detallada sobre el evento. Toda la información estará <b>disponible en las redes sociales de <a href='https://linktr.ee/LugoGamingFest' target='_blank' >Lugo Gaming Fest</a>.</b></p>",
+        "fx_publicacion_fx": "03/03/2022"
       },
       {"id":2,
       "titulo":"Lugo gaming fest será una de las paradas del circuito tormenta.",

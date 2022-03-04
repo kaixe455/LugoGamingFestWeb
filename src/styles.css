@@ -54,3 +54,7 @@ html {
 .swal2-html-container {
   font-family: 'Orbitron', sans-serif !important;
 }
+
+a {
+  color: inherit;
+}
