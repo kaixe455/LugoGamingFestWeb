@@ -21,6 +21,22 @@ export class InvitadosService {
         "spotify":""
       },
       {"id":2,
+        "nombre":"Gazir",
+        "ocupacion":"Freestyler",
+        "imagen":"./assets/fotos_invitados/gazir.png",
+        "twitter":"GazirGPS",
+        "instagram":"gazir_ysb",
+        "spotify":""
+      },
+      {"id":3,
+        "nombre":"Tirpa",
+        "ocupacion":"Freestyler",
+        "imagen":"./assets/fotos_invitados/tirpa.png",
+        "twitter":"Tirpa_dm7",
+        "instagram":"Tirpa_dm7",
+        "spotify":""
+      },
+      {"id":4,
       "nombre":"DfreezeGIRL",
       "ocupacion":"Embajadora",
       "imagen":"./assets/fotos_invitados/DfreezeGIRL.png",
@@ -28,7 +44,7 @@ export class InvitadosService {
       "instagram":"nereaandrade7",
       "spotify":""
       },
-      {"id":3,
+      {"id":5,
       "nombre":"Dualview",
       "ocupacion":"Embajador",
       "imagen":"./assets/fotos_invitados/Dualview.png",
@@ -36,7 +52,15 @@ export class InvitadosService {
       "instagram":"dualview_yt",
       "spotify":""
       },
-      { "id":4,
+      {"id":6,
+      "nombre":"Fromguer",
+      "ocupacion":"Influencer",
+      "imagen":"./assets/fotos_invitados/Fromguer.png",
+      "twitter":"Fromguer",
+      "instagram":"Fromguer",
+      "spotify":""
+      },
+      { "id":7,
         "nombre":"SelediaCosplay",
         "ocupacion":"Cosplayer",
         "imagen":"./assets/fotos_invitados/Seledia.jpg",
@@ -44,7 +68,7 @@ export class InvitadosService {
         "instagram":"SelediaCosplay",
         "spotify":""
        },
-      { "id":5,
+      { "id":8,
         "nombre":"NewBeatOrder",
         "ocupacion":"Productor & DJ",
         "imagen":"./assets/fotos_invitados/NewBeatOrder.png",
@@ -52,7 +76,7 @@ export class InvitadosService {
         "instagram":"NewBeatOrder",
         "spotify":"0gQDOj4OisQbTq7FUEziea?si=vgtSq7B2Rt2SmQbYPbxPpQ"
       },
-      { "id":6,
+      { "id":9,
         "nombre":"HelanyaH",
         "ocupacion":"Influencer",
         "imagen":"./assets/fotos_invitados/helanyah.png",
@@ -60,7 +84,7 @@ export class InvitadosService {
         "instagram":"HelanyaH",
         "spotify":""
       },
-      { "id":7,
+      { "id":10,
         "nombre":"DirectoD2",
         "ocupacion":"Influencer",
         "imagen":"./assets/fotos_invitados/D2.png",
