@@ -35,6 +35,6 @@ jobs:
         server: ${{ env.SERVER }}
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
-        local-dir: ./dist/
+        local-dir: dist/
         server-dir: /domains/lugogamingfest.es/public_html/
         dangerous-clean-slate: true
