@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: Build Project
-      run: npm run ng build --prod --base-href / --deploy-url /
+      run: npm run ng deploy --prod --base-href / --deploy-url /
 
     - name: Sync Files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
