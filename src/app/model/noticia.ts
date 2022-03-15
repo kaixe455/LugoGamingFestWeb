@@ -1,10 +1,12 @@
+import { Categoria } from "./categoria";
+
 export class Noticia {
     id:     number;
     titulo: string;
     subtitulo:   string;
     url_imagen: string;
     contenido: string;
-    categoria: string;
+    categoria: Categoria[];
     fx_publicacion_fx: string;
 
     constructor () {
@@ -13,7 +15,7 @@ export class Noticia {
       this.subtitulo = ''
       this.url_imagen = ''
       this.contenido = ''
-      this.categoria = ''
+      this.categoria = []
       this.fx_publicacion_fx = ''
     }
   }

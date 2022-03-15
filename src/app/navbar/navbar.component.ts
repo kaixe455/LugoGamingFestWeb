@@ -14,8 +14,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  proximamente() {
+  proximamenteCalendario() {
     Alerta.fire('PROXIMAMENTE!', 'El calendario será publicado proximamente!', 'info')
+  }
+  proximamenteTurismo() {
+    Alerta.fire('PROXIMAMENTE!', 'La guía turística será publicada proximamente!', 'info')
   }
 
 }

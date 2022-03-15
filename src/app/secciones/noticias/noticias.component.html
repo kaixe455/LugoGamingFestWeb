@@ -1,0 +1,21 @@
+<header-seccion titulo="NOTICIAS"></header-seccion>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        FILTRO CATEGORIAS
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        Ordenar noticias por fecha de publicacion
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 contenedor animate__animated animate__backInUp">
+        <app-noticia-card *ngFor="let noticia of noticias" [noticia]=noticia></app-noticia-card>
+      </div>
+    </div>
+  </div>
+
+</section>

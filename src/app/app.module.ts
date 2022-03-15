@@ -29,6 +29,7 @@ import { TurismoComponent } from './secciones/turismo/turismo.component';
 import { VerZonaComponent } from './secciones/ver-zona/ver-zona.component';
 import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component';
 import { ActividadesComponent } from './secciones/actividades/actividades.component';
+import { NoticiasComponent } from './secciones/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { ActividadesComponent } from './secciones/actividades/actividades.compon
     TurismoComponent,
     VerZonaComponent,
     HeaderSeccionComponent,
-    ActividadesComponent
+    ActividadesComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,

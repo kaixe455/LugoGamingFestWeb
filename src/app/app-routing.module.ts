@@ -4,6 +4,7 @@ import { ActividadesComponent } from './secciones/actividades/actividades.compon
 import { CalendarioComponent } from './secciones/calendario/calendario.component';
 import { ConciertosComponent } from './secciones/conciertos/conciertos.component';
 import { HomeComponent } from './secciones/home/home.component';
+import { NoticiasComponent } from './secciones/noticias/noticias.component';
 import { PonenciasComponent } from './secciones/ponencias/ponencias.component';
 import { TurismoComponent } from './secciones/turismo/turismo.component';
 import { VerNoticiaComponent } from './secciones/ver-noticia/ver-noticia.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'guia-turistica', component: TurismoComponent },
   { path: 'zona/:id', component: VerZonaComponent },
   { path: 'actividades', component: ActividadesComponent },
+  { path: 'noticias', component: NoticiasComponent },
 ];
 
 @NgModule({
