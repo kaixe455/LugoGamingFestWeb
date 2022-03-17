@@ -1,0 +1,48 @@
+button {
+  --color: #009acf;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 6em;
+  min-height: 2em;
+  line-height: 1.9em;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+
+ button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  min-height: 100px;
+  min-width: 200px;
+  border-radius: 50%;
+ }
+
+ button:hover {
+  color: #fff;
+ }
+
+ button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+
+ button:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+
+ button:active:before {
+  background: #009acf;
+  transition: background 0s;
+ }

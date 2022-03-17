@@ -30,6 +30,7 @@ import { VerZonaComponent } from './secciones/ver-zona/ver-zona.component';
 import { HeaderSeccionComponent } from './componentes/header-seccion/header-seccion.component';
 import { ActividadesComponent } from './secciones/actividades/actividades.component';
 import { NoticiasComponent } from './secciones/noticias/noticias.component';
+import { CategoriaBotonFiltroComponent } from './componentes/botones/categoria-boton-filtro/categoria-boton-filtro.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { NoticiasComponent } from './secciones/noticias/noticias.component';
     VerZonaComponent,
     HeaderSeccionComponent,
     ActividadesComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    CategoriaBotonFiltroComponent
   ],
   imports: [
     BrowserModule,

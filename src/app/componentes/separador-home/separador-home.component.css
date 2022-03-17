@@ -23,7 +23,7 @@
 }
 
 .backazul {
-  background-image: linear-gradient(to right, #009acf, #009acf), url('/assets/gaminghome.jpg');
+  background-image: linear-gradient(to right, #009acf, #009acf), url('/assets/wave.svg');
   background-size: cover;
   background-position: right;
 }

@@ -13,11 +13,15 @@ export class CategoriasService {
     return [
       {
         id:1,
-        nombre:"Lugo Gaming Fest"
+        nombre:"Todas"
       },
       {
         id:2,
         nombre: "Invitados"
+      },
+      {
+        id:3,
+        nombre: "Lugo Gaming Fest"
       }
     ]
 

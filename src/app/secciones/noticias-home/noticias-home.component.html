@@ -3,7 +3,7 @@
     <div class="row center-block">
       <div class="col-md-12 contenedor">
         <!-- elemento noticia -->
-        <app-noticia-card *ngFor="let noticia of noticias" [noticia]=noticia></app-noticia-card>
+        <app-noticia-card *ngFor="let noticia of noticias | slice:0:3; let i=index" [noticia]=noticia></app-noticia-card>
         <!-- fin elemento noticia-->
       </div>
     </div>

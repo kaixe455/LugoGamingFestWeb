@@ -16,7 +16,7 @@ export class NoticiasHomeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.noticias = this.noticiasService.getNoticias()
+    this.noticias = this.noticiasService.getNoticiasHome()
 
   }
 

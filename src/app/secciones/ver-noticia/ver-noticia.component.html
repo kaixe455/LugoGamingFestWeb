@@ -8,7 +8,7 @@
   <div class="row mt-3">
     <div class="col-md-12">
       <span class="texto-autor lgf-font"> <fa-icon class="mx-1" [icon]="['fas','user']"></fa-icon>  Lugo Gaming Fest</span>
-      <span class="texto-autor mx-3 lgf-font"><fa-icon class="mx-1" [icon]="['fas','calendar']"></fa-icon>  {{noticia.fx_publicacion_fx}}</span>
+      <span class="texto-autor mx-3 lgf-font"><fa-icon class="mx-1" [icon]="['fas','calendar']"></fa-icon>  {{noticia.fx_publicacion_fx | date:'MM/dd/yyyy'}}</span>
     </div>
   </div>
   <hr class="d-inline-block mx-3 separator-oxygen mb-0" />

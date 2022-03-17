@@ -1,4 +1,4 @@
-name: Deploy prod site on push
+name: Desplegar a producción
 
 on:
   push:
@@ -8,28 +8,28 @@ on:
 jobs:
   web-deploy:
 
-    name: Deploy Angular App
+    name: Desplegar web LugoGamingFest
     runs-on: ubuntu-latest
 
     env:
       SERVER: lugogamingfest.es
 
     steps:
-    - name: Get latest code
+    - name: Obtenemos la ultima version de codigo
       uses: actions/checkout@v2.3.2
 
-    - name: Use Node.js 14 LTS
+    - name: Node.js 14 LTS
       uses: actions/setup-node@v2
       with:
         node-version: '14'
 
-    - name: Install NPM Modules
+    - name: Instalar NPM Modules
       run: npm install
 
-    - name: Build Project
-      run: npm run ng build --prod
+    - name: Compilar proyecto
+      run: npm run ng build
 
-    - name: Sync Files
+    - name: Enviar a FTP produccion
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ${{ env.SERVER }}
