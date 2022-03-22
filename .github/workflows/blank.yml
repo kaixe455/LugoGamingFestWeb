@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: Compilar proyecto
-      run: npm run ng build
+      run: npm run ng build --prod --extra-webpack-config webpack.partial.js
 
     - name: Enviar a FTP produccion
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
