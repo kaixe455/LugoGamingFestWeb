@@ -16,14 +16,73 @@
         instagram = "Yumivigo" spotify=""></app-invitado>
       </div>
       <div class="col-md-3 col-xs-12">
-        <app-invitado nombre="Juggernaut"
-        ocupacion="Jurado" foto="./assets/fotos_invitados/Juggernaut.jpg" twitter="Juggernaughtty"
-        instagram = "Juggernaughtty" spotify=""></app-invitado>
-      </div>
-      <div class="col-md-3 col-xs-12">
         <app-invitado nombre="ClariceCosplay"
         ocupacion="Jurado" foto="./assets/fotos_invitados/ClariceCosplay.jpg" twitter="ClariceCosplay"
         instagram = "ClariceCosplay" spotify=""></app-invitado>
       </div>
+  </div>
+  <div class="container" *ngIf="zona.nombre == 'DEVELOPERS'">
+    <div class="row animate__animated animate__backInUp">
+      <div class="col-md-4">
+        <img src="./assets/developers/pentakill.jpg" alt="">
+      </div>
+      <div class="col-md-8 info-ponencias">
+        <span class="lgf-font">
+          En Lugo Gaming Fest contaremos con la presencia de Pentakill Studios y podremos conocer su maravilloso trabajo: TheOccultist. Este juego nos pondrá los vellos de punta a más de uno, es una auténtica obra de arte.
+        </span>
+        <div class="col-md-12 text-center">
+          <ul class="nav socialBar">
+            <li class="nav-item"><a href="https://theoccultist.com/" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fas','link']"></fa-icon></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row animate__animated animate__backInUp my-5">
+      <div class="col-md-4">
+        <img src="./assets/developers/cokoon.jpg" alt="">
+      </div>
+      <div class="col-md-8 info-ponencias">
+        <span class="lgf-font">
+          En el evento también estará la desarrolladora de videojuegos Cokoon Games Lab mostrando su juego Tzuki's Plan B. Una maravillosa historia y aventura visual que no dejará indiferente a nadie y que descubriremos mejor en el evento.
+        </span>
+        <div class="col-md-12 text-center">
+          <ul class="nav socialBar">
+            <li class="nav-item"><a href="https://www.tzukisplanb.com/" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fas','link']"></fa-icon></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row animate__animated animate__backInUp my-5">
+      <div class="col-md-4">
+        <img src="./assets/developers/nova.jpg" alt="">
+      </div>
+      <div class="col-md-8 info-ponencias">
+        <span class="lgf-font">
+          ¡Es un placer anunciar que tendremos en Lugo a Racoon And Sheep presentandonos NOVA Cloudwalker's Tale!. Un juego de rompecabezas donde tendremos que recolectar fragmentos de estrella para restaurar la paz.
+        </span>
+        <div class="col-md-12 text-center">
+          <ul class="nav socialBar">
+            <li class="nav-item"><a href="https://arcacrema.itch.io/nova" target="_blank" class="socialIcon px-2 fa fa-twitter fa-2x"><fa-icon [icon]="['fas','link']"></fa-icon></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" *ngIf="zona.nombre == 'ARENA PCS'">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 texto-bigger-lugo">
+        <strong class="lgf-font">Sabado 23</strong><br/>
+        <span>12:00h - 14:00h: Torneo Rocket League</span><br/>
+        <span>15:00h - 17:00h: Torneo Arams LOL</span><br/>
+        <span>17:00h - 20:00h: Torneo TFT </span><br/>
+        <strong class="lgf-font">Domingo 24</strong><br/>
+        <span>11:00h - 13:00h: Hearthstone</span><br/>
+        <span>15:00h - 17:00h: Torneo Fortnite</span><br/>
+        <span>17:00h - 19:00h: Beat the Pro</span><br/>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <img class="img-cal" src="./assets/imagenes_noticias/Horarios_de_Zona_arena_S-1.jpg" alt="Imagen con los horarios de la zona arena">
+      </div>
+    </div>
   </div>
 </div>

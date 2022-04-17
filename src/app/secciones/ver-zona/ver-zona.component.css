@@ -1,0 +1,76 @@
+img {
+  max-height: 35vh
+}
+
+.info-ponencias {
+  background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+li a {
+  cursor: pointer;
+  color: white !important;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+@media  (max-width: 450px) {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+ }
+
+@media (max-width:320px)  {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    height: 40vh;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+}
+@media (max-width:481px)  {
+  .info-conciertos {
+    background: linear-gradient(170deg, #009acf 0%, #1c68a7 100%);
+    font-size: 1rem;
+    color: white;
+    height: 40vh;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+ }
+
+ .texto-bigger-lugo {
+    font-size: 1.6rem;
+ }
+
+ @media (max-width:530px)  {
+   .img-cal {
+     width: 100%;
+     margin-top: 1rem;
+   }
+ }
