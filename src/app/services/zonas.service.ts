@@ -26,9 +26,9 @@ export class ZonasService {
       },
       { "id":3,
         "nombre":"RV",
-        "descripcion":"Hola",
+        "descripcion":"¡Es un placer anunciar que OddersLab tendrá su espacio en #LugoGamingFest!<br/> La empresa que apuesta por la innovación y las nuevas tecnologías, nos dejará probar sus juegos con realidad virtual.",
         "icono":"vr",
-        "proximamente":true
+        "proximamente":false
       },
       { "id":4,
         "nombre":"ARENA PCS",
