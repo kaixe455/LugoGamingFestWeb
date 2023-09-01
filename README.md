@@ -1,27 +1,30 @@
-# LugoGamingFestWeb
+# Lugo Gaming Fest Web: esports event
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+> 🧑‍🚀 **Lugo Gaming Fest** Look at this project!
 
-## Development server
+This project is a website for an esports event located in Lugo. This website shows information about events news, tournaments, workshops, live music events and LugoGamingFest social networks.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 👀 Stack
 
-## Code scaffolding
+- Angular 12
+- Typescript
+- HTML & CSS
+- Bootstrap 5
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Project Preview
 
-## Build
+### Home
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Home preview](https://github.com/kaixe455/LugoGamingFestWeb/blob/master/preview.png?raw=true)
 
-## Running unit tests
+### Live music information
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Home preview](https://github.com/kaixe455/LugoGamingFestWeb/blob/master/preview1.png?raw=true)
 
-## Running end-to-end tests
+### Workshops information
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Teams and players preview](https://github.com/kaixe455/LugoGamingFestWeb/blob/master/preview2.png?raw=true)
 
-## Further help
+### Event news
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Oxyclub preview](https://github.com/kaixe455/LugoGamingFestWeb/blob/master/preview3.png?raw=true)
